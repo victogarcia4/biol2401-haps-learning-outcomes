@@ -131,7 +131,7 @@ class App {
     this.components.hero.render();
 
     // Update page title
-    document.title = 'BIOL 2401 | HAPS Learning Outcomes Repository';
+    document.title = 'Dr. Victor Garcia M | BIOL 2401 HAPS Learning Outcomes';
 
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -186,7 +186,7 @@ class App {
     this.attachChapterPager(chapterNumber);
 
     // Update page title
-    document.title = `Chapter ${chapterNumber}: ${chapter.title} | BIOL 2401`;
+    document.title = `CH${String(chapterNumber).padStart(2, '0')} ${chapter.title} | Dr. Victor Garcia M`;
 
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
