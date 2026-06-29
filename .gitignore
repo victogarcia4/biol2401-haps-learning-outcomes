@@ -1,0 +1,44 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# Node Modules (if any)
+node_modules/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Course materials that should NOT be published publicly
+# (these are not used by the app — remove these lines if you DO want them deployed)
+public/BIOL 2401 Lecture Exam*.txt
+public/BIOL 2401 Lecture exam*.txt
+public/Visual Style Guide for Medical-Education Infographics.md

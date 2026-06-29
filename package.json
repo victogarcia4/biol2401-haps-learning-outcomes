@@ -1,0 +1,31 @@
+{
+  "name": "biol2401-haps-repository",
+  "version": "1.0.0",
+  "description": "Interactive educational repository for BIOL 2401 HAPS Learning Outcomes - 202 medical infographics aligned to 840 student learning outcomes across 12 chapters",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "preview": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "anatomy",
+    "physiology",
+    "biol-2401",
+    "haps",
+    "learning-outcomes",
+    "medical-education",
+    "infographics",
+    "biology",
+    "healthcare",
+    "anatomy-physiology"
+  ],
+  "author": "Dr. Victor Garcia M",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/biol2401-repository"
+  },
+  "homepage": "https://biol2401-haps-repository.vercel.app",
+  "type": "module"
+}
